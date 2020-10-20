@@ -5,14 +5,14 @@ jobs:
       # new all-in-one docker image
       - image: fr3akyphantom/droid-builder:latest
     environment:
-      MANIFEST_BRANCH: 'android-8.1'
+      MANIFEST_BRANCH: 'android-9.0'
       USE_SECRET_BOOTABLE: 'true'
       SECRET_BR: 'redesign3'
       # PBRP_BRANCH: 'android-9.0'
-      VERSION: '2.9.1'
+      VERSION: '3.0.0'
       VENDOR: 'asus'
       CODENAME: 'Z00A'
-      FLAVOR: 'userdebug'
+      FLAVOR: 'eng'
       # BUILD_LUNCH: 'omni_h30u10-userdebug'
       TEST_BUILD: 'true'
       MAINTAINER: '@Imranpopz'
